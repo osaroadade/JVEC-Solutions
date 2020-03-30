@@ -90,7 +90,7 @@ p {
 .hwdi-content-right-content .primary-btn, .contact-form .form .button-contact {
   padding: 10px 20px;
   color: #ffffff;
-  background-color: #4d4d4d;
+  background-color: #0A3B80;
   border-radius: 4px;
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
@@ -106,7 +106,7 @@ p {
 }
 
 .hwdi-content-right-content .primary-btn:hover, .contact-form .form .button-contact:hover {
-  background-color: gray;
+  background-color: #0e51af;
 }
 
 nav {
@@ -214,16 +214,36 @@ nav.navShadow .brand {
   color: #0d0d0d;
 }
 
+nav.navShadow .brand img {
+  width: 10.2%;
+}
+
 nav.navShadow .desktop-nav-links {
   color: #0d0d0d;
 }
 
 nav.navShadow .desktop-nav-links:hover {
-  color: #1a1a1a;
+  color: #0A3B80;
 }
 
 nav .brand {
   color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .brand img {
+  width: 12%;
+}
+
+nav .brand h3 {
+  display: inline-block;
+  padding-left: 15px;
+  font-weight: 500;
 }
 
 nav .desktop-nav {
@@ -241,7 +261,7 @@ nav .desktop-nav-links {
 }
 
 nav .desktop-nav-links:hover {
-  color: #f2f2f2;
+  color: #0A3B80;
 }
 
 @media (max-width: 700px) {
@@ -435,7 +455,7 @@ nav .toggle-btn span {
 .title-line {
   width: 12%;
   height: 2px;
-  background-color: #ff971c;
+  background-color: #18498a;
   margin: 15px auto 0;
 }
 
@@ -713,7 +733,7 @@ nav .toggle-btn span {
   height: 3px;
   left: -40px;
   top: 18px;
-  background-color: #fccb06;
+  background-color: #0A3B80;
 }
 
 .clientele {
@@ -1058,7 +1078,7 @@ nav .toggle-btn span {
 }
 
 .contact-content-contact .icon {
-  color: #fccb06;
+  color: #0A3B80;
   font-size: 60px;
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
@@ -1079,8 +1099,8 @@ nav .toggle-btn span {
 .contact-content-contact:hover {
   -webkit-box-shadow: 1px 4px 20px -2px rgba(0, 0, 0, 0.2);
           box-shadow: 1px 4px 20px -2px rgba(0, 0, 0, 0.2);
-  border: 1px solid #fccb06;
-  background-color: #fccb06;
+  border: 1px solid #0A3B80;
+  background-color: #0A3B80;
   -webkit-transform: translateY(-8px);
           transform: translateY(-8px);
 }
