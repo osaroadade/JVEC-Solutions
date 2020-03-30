@@ -1,0 +1,23 @@
+@import variables
+    
+@mixin bg-text-style($content, $color, $top)
+    position: absolute
+    content: $content
+    font-size: 100px
+    top: $top
+    font-weight: 600
+    z-index: -1
+    left: 50%
+    transform: translateX(-50%)
+    color: rgba($color, .2)
+
+    @media (max-width: 510px)
+        font-size: 80px
+        top: $top + 10%
+
+@mixin bg-placement($img, $color)
+    background-image: url('../images/' + $img +'.png')
+    background-size: cover
+    background-position: center
+    background-color: $color
+    position: relative
