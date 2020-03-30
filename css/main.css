@@ -123,6 +123,12 @@ nav {
   }
 }
 
+@media (max-width: 500px) {
+  .wwd, .about, .clientele, .hwdi, .contact {
+    padding: 150px 35px;
+  }
+}
+
 .hero .item-bg-1, .hero .item-bg-2, .hero .item-bg-3, .hero .item-bg-4 {
   background-position: center;
   background-repeat: no-repeat;
@@ -1104,7 +1110,7 @@ nav .toggle-btn span {
 
 @media (max-width: 650px) {
   .contact-form .form {
-        grid-template-areas: "area-1 area-1 area-1" "area-2 area-2 area-2" "area-3 area-3 area-3" "area-4 area-4 area-4" ". area-5 .";
+        grid-template-areas: "area-1 area-1 area-1" "area-2 area-2 area-2" "area-3 area-3 area-3" "area-4 area-4 area-4" "area-5 area-5 area-5";
   }
 }
 
