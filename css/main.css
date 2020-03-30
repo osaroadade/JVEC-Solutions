@@ -123,7 +123,7 @@ nav {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
   .wwd, .about, .clientele, .hwdi, .contact {
     padding: 150px 35px;
   }
