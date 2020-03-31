@@ -87,6 +87,19 @@ closeBtn.addEventListener('click', () => {
     dbNone.classList.remove('opacity')
 });
 
+// GET IN TOUCH COMPONENT
+const floatingBtn = document.querySelector('.floating-btn');
+const close_btn = document.querySelector('.close-btn');
+const socialPC = document.querySelector('.social');
+
+floatingBtn.addEventListener('click', () => {
+	socialPC.classList.toggle('visible')
+});
+
+close_btn.addEventListener('click', () => {
+	socialPC.classList.remove('visible')
+});
+
 //On page scroll
 $( () => {
 	

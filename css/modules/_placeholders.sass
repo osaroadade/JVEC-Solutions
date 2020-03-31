@@ -1,5 +1,9 @@
 @import variables
 
+.pl-5
+    padding-left: 5px
+    font-size: 16px
+
 %primary-button
     padding: 10px 20px
     color: $main-color
@@ -10,10 +14,6 @@
     font-size: 16px
     z-index: 2
     font-family: $main-font
-
-    .pl-5
-        padding-left: 5px
-        font-size: 16px
 
     &:hover
         background-color: lighten($primary-brand-color, 10%)
@@ -74,6 +74,21 @@
     &-close:before
         content: "\e646"
         color: darken($main-color, 100%)
+
+    &-instagram:before
+        content: "\e73d"
+
+    &-facebook:before
+        content: "\e741"
+
+    &-twitter:before
+        content: "\e72a"
+
+    &-twitter-alt:before
+        content: "\e74b"
+
+    &-linkedin:before 
+        content: "\e735"
 
 .navShadow
 
