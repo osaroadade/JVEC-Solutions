@@ -311,7 +311,7 @@ nav .mobile.visible {
 }
 
 nav .mobile-black {
-  background-color: #221f1f;
+  background-color: #091B33;
   width: 60%;
   max-width: 480px;
   min-width: 320px;
@@ -325,7 +325,7 @@ nav .mobile-black.visible {
 }
 
 nav .mobile-red {
-  background-color: #e50914;
+  background-color: #0e51af;
   -webkit-transition-delay: .2s;
           transition-delay: .2s;
   width: 95%;
