@@ -1115,8 +1115,12 @@ nav .toggle-btn span {
 .contact-content-contact .text-box h4, .contact-content-contact .text-box p a h4 {
   font-size: 18px;
   font-weight: 400;
-  margin-bottom: 3px;
+  margin-bottom: 12px;
   color: #666666;
+}
+
+.contact-content-contact .text-box p.pt-20 {
+  padding-top: 6px;
 }
 
 .contact-content-contact:hover {
