@@ -519,20 +519,20 @@ nav .toggle-btn span {
   transition: all 0.3s ease-out 0s;
 }
 
-.wwd-content-cda .text-box, .wwd-content-cda .contact-content-contact .text-box p, .contact-content-contact .text-box .wwd-content-cda p, .wwd-content-cda .contact-content-contact .text-box p a, .contact-content-contact .text-box p .wwd-content-cda a {
+.wwd-content-cda .text-box {
   width: 100%;
   max-width: 95%;
   margin: 0 auto;
   margin-top: 8px;
 }
 
-.wwd-content-cda .text-box h4, .contact-content-contact .text-box .wwd-content-cda p h4, .wwd-content-cda .contact-content-contact .text-box p a h4, .contact-content-contact .text-box p .wwd-content-cda a h4 {
+.wwd-content-cda .text-box h4 {
   font-weight: 500;
   margin-bottom: 8px;
   letter-spacing: 0.15px;
 }
 
-.wwd-content-cda .text-box p, .contact-content-contact .text-box .wwd-content-cda p p, .wwd-content-cda .contact-content-contact .text-box p a p, .contact-content-contact .text-box p .wwd-content-cda a p {
+.wwd-content-cda .text-box p {
   font-size: 14px;
   line-height: 22px;
   color: #e6e6e6;
@@ -745,12 +745,12 @@ nav .toggle-btn span {
   color: #999999;
 }
 
-.hwdi-content-left-hwdi .text-box, .hwdi-content-left-hwdi .contact-content-contact .text-box p, .contact-content-contact .text-box .hwdi-content-left-hwdi p, .hwdi-content-left-hwdi .contact-content-contact .text-box p a, .contact-content-contact .text-box p .hwdi-content-left-hwdi a {
+.hwdi-content-left-hwdi .text-box {
   text-align: left;
   padding-left: 30px;
 }
 
-.hwdi-content-left-hwdi .text-box h4, .contact-content-contact .text-box .hwdi-content-left-hwdi p h4, .hwdi-content-left-hwdi .contact-content-contact .text-box p a h4, .contact-content-contact .text-box p .hwdi-content-left-hwdi a h4 {
+.hwdi-content-left-hwdi .text-box h4 {
   padding-bottom: 8px;
   margin-bottom: 0px;
 }
@@ -759,11 +759,11 @@ nav .toggle-btn span {
   background-color: #ffffff;
 }
 
-.hwdi-content-left-hwdi:hover .text-box h4, .contact-content-contact .text-box .hwdi-content-left-hwdi:hover p h4, .contact-content-contact .text-box p .hwdi-content-left-hwdi:hover a h4 {
+.hwdi-content-left-hwdi:hover .text-box h4 {
   color: #666666;
 }
 
-.hwdi-content-left-hwdi:hover .text-box p, .contact-content-contact .text-box .hwdi-content-left-hwdi:hover p p, .contact-content-contact .text-box p .hwdi-content-left-hwdi:hover a p {
+.hwdi-content-left-hwdi:hover .text-box p {
   color: #333333;
 }
 
@@ -842,6 +842,31 @@ nav .toggle-btn span {
 .contact-info {
   display: flex;
   gap: 30px;
+  margin: 0 100px;
+}
+
+@media (max-width: 1070px) {
+  .contact-info {
+    margin: 0 60px;
+  }
+}
+
+@media (max-width: 1037px) {
+  .contact-info {
+    margin: 0 20px;
+  }
+}
+
+@media (max-width: 990px) {
+  .contact-info {
+    margin: 0px;
+  }
+}
+
+@media (max-width: 740px) {
+  .contact-info {
+    flex-direction: column;
+  }
 }
 
 .contact-info h3 {
@@ -876,53 +901,22 @@ nav .toggle-btn span {
 .contact-content-contact {
   margin-top: 16px;
   width: 100%;
-  padding: 70px;
-  text-align: center;
-  border: 1px solid #ffffff;
-  background-color: #ffffff;
-  transition: all 0.3s ease-out 0s;
-  box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.03);
 }
 
-.contact-content-contact .icon {
-  color: #0A3B80;
-  font-size: 60px;
-  transition: all 0.3s ease-out 0s;
-}
-
-.contact-content-contact .text-box, .contact-content-contact .text-box p, .contact-content-contact .text-box p a {
+.contact-content-contact .text, .contact-content-contact .text p, .contact-content-contact .text p a {
   color: black;
   font-size: 15px;
 }
 
-.contact-content-contact .text-box h4, .contact-content-contact .text-box p a h4 {
+.contact-content-contact .text h4, .contact-content-contact .text p a h4 {
   font-size: 18px;
   font-weight: 400;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
   color: #666666;
 }
 
-.contact-content-contact .text-box p.pt-20 {
-  padding-top: 6px;
-}
-
-.contact-content-contact:hover {
-  box-shadow: 1px 4px 20px -2px rgba(0, 0, 0, 0.2);
-  border: 1px solid #0A3B80;
-  background-color: #0A3B80;
-  transform: translateY(-8px);
-}
-
-.contact-content-contact:hover .icon {
-  color: #ffffff;
-}
-
-.contact-content-contact:hover .text-box, .contact-content-contact:hover .text-box p, .contact-content-contact:hover .text-box p a {
-  color: #ffffff;
-}
-
-.contact-content-contact:hover .text-box h4 {
-  color: #ffffff;
+.contact-content-contact .text p.pb-20 {
+  padding-bottom: 16px;
 }
 
 .contact-form {
@@ -937,7 +931,7 @@ nav .toggle-btn span {
   grid-gap: 20px;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 990px) {
   .contact-form .form {
     grid-template-areas: "area-1 area-1" "area-2 area-2" "area-3 area-3" "area-4 area-4";
   }
