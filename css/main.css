@@ -394,12 +394,30 @@ nav .toggle-btn span {
   background-image: url("../images/bg-image-1.jpg");
 }
 
+@media (max-width: 530px) {
+  .hero .owl-carousel .item-bg-1 {
+    height: 65vh;
+  }
+}
+
 .hero .owl-carousel .item-bg-2 {
   background-image: url("../images/bg-image-2.jpg");
 }
 
+@media (max-width: 530px) {
+  .hero .owl-carousel .item-bg-2 {
+    height: 65vh;
+  }
+}
+
 .hero .owl-carousel .item-bg-3 {
   background-image: url("../images/bg-image-3.jpg");
+}
+
+@media (max-width: 530px) {
+  .hero .owl-carousel .item-bg-3 {
+    height: 65vh;
+  }
 }
 
 .hero .owl-carousel .item-bg {
@@ -424,8 +442,10 @@ nav .toggle-btn span {
 
 @media (max-width: 660px) {
   .hero .owl-carousel .item-bg h1 {
-    font-size: 40px;
-    max-width: 70vw;
+    text-transform: none;
+    font-weight: 600;
+    font-size: 32px;
+    max-width: 85vw;
   }
 }
 
